@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+header {
+
+    color: #17233D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 47px;
+    margin-top: 48px    ;
+      
+}
+
+.link-header {
+
+color: #17233D;
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+margin-right: 36px;
+cursor: pointer;
+
+}
+
+.button-first {
+
+    background: #6FBF44;
+    width: 124px;
+    height: 44px;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 16px;
+    color: #FFF;
+    border: none;
+}
+
+img {
+
+    width: 533.834px;
+    height: 466.9px;
+    margin-top: 66.2px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+h3 {
+
+  width: 603px;
+  margin-bottom: 34px;
+  color: #4B505A;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+
+}
+
+aside {
+
+     display: inline-block;
+
+}
+
+h1 {
+
+    color: #161A49;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 82px;
+    margin-bottom: 30px;
+    width: 600px;
+
+}
+
+button {
+
+    color: #6FBF44;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer; 
+}
+
+@media screen and (max-width: 550px) {
+
+    img {
+
+        width: 312px;
+        height: 288px;
+        position: fixed;
+        top: 510px;
+     
+    }
+
+    .link-header {
+        display: none;        
+    }
+
+.button-first {
+    width: 91px;
+    height: 31px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 6px;
+    position: fixed;
+    top: 10px;
+    left: 274px;
+}   
+
+aside {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+width: 278px;
+color: #161A49;
+text-align: center;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+margin-left: 60px;
+}
+
+h3 {
+color: #4B505A;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+width: 297px;
+margin-left: 60px;
+}
+
+button {
+color: #6FBF44;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+border: none;
+margin-left: 38px;
+}
+
+}
+
